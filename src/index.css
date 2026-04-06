@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  border: 4px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: blue;
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #eeeeee;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: darkred;
+}
+
+.history {
+  margin-top: 30px;
+  text-align: left;
+  border-top: 2px dashed #ccc;
+  padding-top: 10px;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.win {
+  background-color: lightgreen;
+}
+
+.lose {
+  background-color: lightpink;
+}
+
+.draw {
+  background-color: lightgray;
+}
+
+/* Dark mode styles! */
+body.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+body.dark-mode .container {
+  background-color: #333;
+  border-color: white;
+}
+
+body.dark-mode h1 {
+  color: lightblue;
+}
+
+body.dark-mode button {
+  background-color: #555;
+  color: white;
+  border-color: white;
+}
+
+body.dark-mode button:hover {
+  background-color: #777;
+}
+
+body.dark-mode .score {
+  color: #ffaaaa;
+}
+
+body.dark-mode .win {
+  background-color: #2e7d32;
+  color: white;
+}
+
+body.dark-mode .lose {
+  background-color: #c62828;
+  color: white;
+}
+
+body.dark-mode .draw {
+  background-color: #555;
+  color: white;
+}
